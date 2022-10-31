@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringBoot_04_Web_Jsp&apos; to &apos;SpringBoot_04_Web_JSP&apos;" description="Rename resource &apos;SpringBoot_04_Web_Jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SpringBoot_04_Web_Jsp" name="SpringBoot_04_Web_JSP" stamp="1664333846302" updateReferences="true"/>
+</session>

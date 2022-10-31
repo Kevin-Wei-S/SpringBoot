@@ -1,0 +1,11 @@
+1664804601461	Move 'employee.sql' to 'sql'
+1664804602978	Move 'department.sql' to 'sql'
+1664805001220	Rename package 'com.kwei.springboot.entities'
+1664850334579	Move package
+1664850364233	Move folder
+1664850374209	Move package
+1664850398408	Delete element
+1664876233697	Move 'employeeMapper.xml' to 'mapper'
+1664876242103	Delete element
+1664877035630	Rename resource 'mybatis.xml'
+1664877084766	Move 'mybatis-config.xml' to 'mybatis'

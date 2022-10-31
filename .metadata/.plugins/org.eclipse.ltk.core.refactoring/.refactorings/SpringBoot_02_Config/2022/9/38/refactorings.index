@@ -1,0 +1,14 @@
+1663153168082	Move 'application.yml' to 'static'
+1663153341046	Move 'application.yml' to 'resources'
+1663156400348	Delete element
+1663163120554	Delete element
+1663164494997	Rename type 'ISO_8859_1To'
+1663164605557	Rename type 'SpringBoot02ConfigApplicationTests'
+1663164636876	Rename type 'ISO_8859_1ToUTF_8'
+1663164712699	Rename type 'SupportUtils'
+1663289254679	Rename resource 'application_prod.xml'
+1663289264976	Delete element
+1663289430798	Rename resource 'application_rev.properties'
+1663289438868	Rename resource 'application_prod.properties'
+1663289630613	Rename resource 'application-rev.properties'
+1663289693001	Rename resource 'application_dev.properties'

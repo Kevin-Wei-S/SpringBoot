@@ -1,0 +1,20 @@
+package com.kwei.springboot;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SpringBoot08StarterTestApplicationTests {
+	
+	@Test
+	void contextLoads() {
+		int n1 = 1200;
+		int n2 = 3400;
+		int n3 = 1800;
+		
+		int result = n1 > n2 ? n1 : n2;
+		
+		System.out.println(result);
+	}
+
+}

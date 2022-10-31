@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kwei.springboot.mapper.EmployeeMapper">
+	
+	<!-- public Employee getEmpById(@Param("id") Integer id); -->
+	<select id="getEmpById" resultType="com.kwei.springboot.bean.Employee">
+		SELECT * FROM mybatis.employee WHERE id = #{id}
+	</select>
+	
+	<!-- public List<Employee> getAllEmps(); -->
+	<select id="getAllEmps" resultType="com.kwei.springboot.bean.Employee">
+		SELECT * FROM mybatis.employee
+	</select>
+	
+	<!-- public void insertEmp(Employee emp); -->
+	<insert id="insertEmp" useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO mybatis.employee VALUES(null, #{lastName}, #{email}, #{gender}, #{dId}) 
+	</insert>
+	
+	<!-- public void deleteEmpById(Integer id); -->
+	<delete id="deleteEmpById">
+		DELETE FROM mybatis.employee WHERE id = #{id}
+	</delete>
+	
+	<!-- public void updateEmp(Employee emp); -->
+	<update id="updateEmp">
+		UPDATE mybatis.employee SET lastName = #{lastName}, email = #{email}, gender = #{gender}, d_id = #{dId} WHERE id = #{id} 
+	</update>
+	
+	
+</mapper>

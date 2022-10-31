@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="SpringBoot_06_Data_JDBC"/>
+<aop-project name="SpringBoot_02_Config_AutoConfig"/>
+<aop-project name="SpringBoot_06_Data_JPA"/>
+<aop-project name="SpringBoot_04_Web_RestfulCRUD"/>
+<aop-project name="SpringBoot_03_Logging_TransferAbstractLog"/>
+<aop-project name="SpringBoot_02_Config_LoadConfigPriority"/>
+<aop-project name="SpringBoot_07"/>
+<aop-project name="SpringBoot_01_HelloWorld_Quick"/>
+<aop-project name="SpringBoot_01_HelloWorld"/>
+<aop-project name="SpringBoot_06_Data_MyBatis"/>
+<aop-project name="SpringBoot_02_Config"/>
+<aop-project name="SpringBoot_03_Logging"/>
+<aop-project name="SpringBoot_04_Web_JSP"/>
+<aop-project name="SpringBoot_08_Starter_Test"/>
+</aop-reference-model>

@@ -1,0 +1,38 @@
+1663579868669	Move 'asserts' to 'public'
+1663579901126	Move 'asserts' to 'templates'
+1663579923481	Move 'asserts' to 'static'
+1663579943731	Move folder
+1663579947238	Move 'asserts' to 'resources'
+1663580752915	Move 'asserts' to 'static'
+1663580757898	Delete elements
+1663583051345	Delete element
+1663583148150	Move 'favicon.ico' to 'templates'
+1663583150606	Move 'favicon.png' to 'static'
+1663583276316	Delete element
+1663583281978	Move 'favicon.ico' to 'static'
+1663583489887	Move 'favicon.ico' to 'resources'
+1663583656735	Move 'favicon.ico' to 'static'
+1663584519764	Delete element
+1663584652818	Delete element
+1663584756254	Move 'favicon.ico' to 'resources'
+1663584847594	Move 'favicon.ico' to 'static'
+1663585474778	Move 'favicon.ico' to 'resources'
+1663586542589	Move 'favicon.ico' to 'static'
+1663586606417	Move 'favicon.ico' to 'resources'
+1663586617772	Delete element
+1663586785157	Move 'favicon.ico' to 'static'
+1663635582821	Move 'success.html' to 'templates'
+1663669203692	Rename package 'com.kwei.springboot.configuration'
+1663732491713	Move 'index.html' to 'img'
+1663732529074	Move 'index.html' to 'static'
+1663736185823	Move file
+1663736346845	Copy file
+1663736364546	Delete element
+1663736380087	Copy file
+1663754179241	Move compilation unit
+1663754336985	Rename type 'EmployeeController'
+1663814527026	Rename type 'UserController'
+1663814888604	Move 'emp_add.html' to 'emp'
+1663814892389	Move 'list.html' to 'emp'
+1663845290393	Rename resource 'emp_add.html'
+1663859659742	Delete element

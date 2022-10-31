@@ -1,0 +1,29 @@
+spring: 
+  datasource:
+    username: root
+    password: K0932851767
+    url: jdbc:mysql://192.168.1.107:3306/jdbc
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    # Druid數據源其他配置
+    initialSize: 5
+    minIdel: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    # 配置監控統計攔截的Filters, 去掉後監控SQL無法統計, "wall"用於防火牆|
+    filters: stat,wall
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobalDataSourceStat: true
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+    
+#  sql: 
+#    init:
+#      schema-locations: classpath:department.sql
+#      mode: always
